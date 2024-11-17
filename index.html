@@ -17,6 +17,13 @@
     <input type="text" id="action" placeholder="some verb or action" />
     <input type="text" id="object" placeholder="some object" />
     <button id="generateButton" onclick="changeText()">Generate</button>
+    <select id="voiceSelect" style="display: none"></select>
+    <button id="readButton" onclick="readText()" style="display: none">
+      Read Text
+    </button>
+    <button id="stopButton" onclick="stopText()" style="display: none">
+      Stop
+    </button>
     <p id="output" style="display: none">
       bro is {action} {object} 🤔<br />
       i've gyat to see that 👀<br />
